@@ -7,7 +7,27 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-gray-300">
+    <div class="container mx-auto h-screen">
+        <!-- navbar -->
+        <div class="flex bg-blue-500 h-12 shadow-md">
+            Navbar
+        </div>
+
+        <!-- main -->
+        <div class="flex h-[85%]">
+            <div class="flex flex-col h-full w-[250px] bg-green-500">
+                Left bar
+            </div>
+            <div class="flex flex-col h-full w-full bg-orange-700">
+                Content
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="flex bg-red-300 h-24">
+            Footer
+        </div>
+    </div>
 </body>
 </html>
