@@ -1,0 +1,22 @@
+.form {
+    width: 350px;
+}
+
+.form_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.form_item > input {
+    padding: 5px;
+}
+
+.btn-primary {
+    margin-left: 50px;
+}
+
+.btn-reset {
+    margin-right: 50px;
+}
